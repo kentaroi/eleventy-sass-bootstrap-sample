@@ -1,0 +1,5 @@
+@import "base";
+
+.my-button {
+  @include my-button-style;
+}

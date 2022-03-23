@@ -1,0 +1,6 @@
+@import "bootstrap";
+
+@mixin my-button-style {
+  @include button-variant(red, silver, white);
+  @include button-size(0.2em, 0.2em, 1em, 0.3em);
+}
